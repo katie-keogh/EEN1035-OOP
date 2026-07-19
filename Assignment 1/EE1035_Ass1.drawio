@@ -1,0 +1,53 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.8.0">
+  <diagram name="Page-1" id="ujdJTZT1bNzPSMJ_e2di">
+    <mxGraphModel dx="855" dy="643" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ZPTKyPUiXX5Xuw4CbJT6-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZPTKyPUiXX5Xuw4CbJT6-1" target="ZPTKyPUiXX5Xuw4CbJT6-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPTKyPUiXX5Xuw4CbJT6-13" value="IS-A" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZPTKyPUiXX5Xuw4CbJT6-10">
+          <mxGeometry x="-0.0364" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZPTKyPUiXX5Xuw4CbJT6-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZPTKyPUiXX5Xuw4CbJT6-1" target="ZPTKyPUiXX5Xuw4CbJT6-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPTKyPUiXX5Xuw4CbJT6-14" value="IS-A" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZPTKyPUiXX5Xuw4CbJT6-11">
+          <mxGeometry x="0.3462" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZPTKyPUiXX5Xuw4CbJT6-1" value="Drink Class" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="80" width="200" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPTKyPUiXX5Xuw4CbJT6-6" value="&lt;font face=&quot;Courier New&quot;&gt;string name;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;int volume;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot;&gt;int productCode;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ZPTKyPUiXX5Xuw4CbJT6-1">
+          <mxGeometry x="30" y="40" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPTKyPUiXX5Xuw4CbJT6-12" value="IS-A" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZPTKyPUiXX5Xuw4CbJT6-2" target="ZPTKyPUiXX5Xuw4CbJT6-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPTKyPUiXX5Xuw4CbJT6-2" value="Alcoholic Class" style="swimlane;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="500" y="280" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPTKyPUiXX5Xuw4CbJT6-7" value="&lt;font face=&quot;Courier New&quot;&gt;float alcoholPercentage;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ZPTKyPUiXX5Xuw4CbJT6-2">
+          <mxGeometry x="-10" y="40" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPTKyPUiXX5Xuw4CbJT6-3" value="Juice Class" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="280" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPTKyPUiXX5Xuw4CbJT6-9" value="&lt;font face=&quot;Courier New&quot;&gt;string flavour&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ZPTKyPUiXX5Xuw4CbJT6-3">
+          <mxGeometry x="40" y="40" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPTKyPUiXX5Xuw4CbJT6-4" value="Wine Class" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="420" width="200" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPTKyPUiXX5Xuw4CbJT6-8" value="&lt;font face=&quot;Courier New&quot;&gt;string grape;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ZPTKyPUiXX5Xuw4CbJT6-4">
+          <mxGeometry x="40" y="40" width="120" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
